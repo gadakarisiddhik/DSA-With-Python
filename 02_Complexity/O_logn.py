@@ -17,6 +17,10 @@ def find_name(names,target):
     return -1
 
 names = ["Pooja","Rushikesh","Siddik","Tipu","Umar","Ved"]
-key = "Siddik"
+key = "Ved"
 
 result = find_name(names,key)
+if result != -1:
+    print("Found at Index:",result)
+# else:
+#     print("Enter valid Key!")
