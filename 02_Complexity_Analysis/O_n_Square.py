@@ -7,7 +7,7 @@ def find_duplicate(numbers):
             if i != j  and numbers[i] == numbers[j]:
                 return True
     return False
-
+ 
 numbers = [10,2,35,22,48]
 result = find_duplicate(numbers)
 
