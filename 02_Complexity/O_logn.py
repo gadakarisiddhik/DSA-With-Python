@@ -1,3 +1,6 @@
+"""
+Olog(n) is break into 2 parts continuesly 
+"""
 def find_name(names,target):
     left = 0
     right = len(names)-1
@@ -16,8 +19,8 @@ def find_name(names,target):
 
     return -1
 
-names = ["Pooja","Rushikesh","Siddik","Tipu","Umar","Ved"]
-key = "Ved"
+names = ["Pooja","Quahira","Rushikesh","Siddik","Tipu","Umar","Ved"]
+key = "Pooja"
 
 result = find_name(names,key)
 if result != -1:
