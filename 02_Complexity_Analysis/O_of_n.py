@@ -8,7 +8,7 @@ def find_paper(papers,name):
     return False
 
 paper_names = ["Pooja","Quahira","Rushikesh","Siddik","Tipu","Umar","Ved","Karan"]
-search_name  = "Karan"
+search_name  = "Siddik"
 
 result = find_paper(paper_names , search_name)
 if result:
